@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.f84122e8.chunk.css",
-    "main.js": "/resume/static/js/main.d0503e10.chunk.js",
-    "main.js.map": "/resume/static/js/main.d0503e10.chunk.js.map",
-    "runtime-main.js": "/resume/static/js/runtime-main.75d8c91e.js",
-    "runtime-main.js.map": "/resume/static/js/runtime-main.75d8c91e.js.map",
-    "static/js/2.6260b7d5.chunk.js": "/resume/static/js/2.6260b7d5.chunk.js",
-    "static/js/2.6260b7d5.chunk.js.map": "/resume/static/js/2.6260b7d5.chunk.js.map",
-    "index.html": "/resume/index.html",
-    "precache-manifest.b7d35bed2f21931bb3a18959e62ade39.js": "/resume/precache-manifest.b7d35bed2f21931bb3a18959e62ade39.js",
-    "service-worker.js": "/resume/service-worker.js",
-    "static/css/main.f84122e8.chunk.css.map": "/resume/static/css/main.f84122e8.chunk.css.map",
-    "static/js/2.6260b7d5.chunk.js.LICENSE.txt": "/resume/static/js/2.6260b7d5.chunk.js.LICENSE.txt"
+    "main.css": "/didactic-giggle/static/css/main.f84122e8.chunk.css",
+    "main.js": "/didactic-giggle/static/js/main.d0503e10.chunk.js",
+    "main.js.map": "/didactic-giggle/static/js/main.d0503e10.chunk.js.map",
+    "runtime-main.js": "/didactic-giggle/static/js/runtime-main.d57c00a5.js",
+    "runtime-main.js.map": "/didactic-giggle/static/js/runtime-main.d57c00a5.js.map",
+    "static/js/2.6260b7d5.chunk.js": "/didactic-giggle/static/js/2.6260b7d5.chunk.js",
+    "static/js/2.6260b7d5.chunk.js.map": "/didactic-giggle/static/js/2.6260b7d5.chunk.js.map",
+    "index.html": "/didactic-giggle/index.html",
+    "precache-manifest.96631adfeefffd8b2e8496c775763f2d.js": "/didactic-giggle/precache-manifest.96631adfeefffd8b2e8496c775763f2d.js",
+    "service-worker.js": "/didactic-giggle/service-worker.js",
+    "static/css/main.f84122e8.chunk.css.map": "/didactic-giggle/static/css/main.f84122e8.chunk.css.map",
+    "static/js/2.6260b7d5.chunk.js.LICENSE.txt": "/didactic-giggle/static/js/2.6260b7d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.75d8c91e.js",
+    "static/js/runtime-main.d57c00a5.js",
     "static/js/2.6260b7d5.chunk.js",
     "static/css/main.f84122e8.chunk.css",
     "static/js/main.d0503e10.chunk.js"
