@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/didactic-giggle/precache-manifest.fe6f8e75fdd338e780a0b91b4f24660b.js"
+  "/didactic-giggle/precache-manifest.123e6e1a7eb2fade5929825183f3e822.js"
 );
 
 self.addEventListener('message', (event) => {
