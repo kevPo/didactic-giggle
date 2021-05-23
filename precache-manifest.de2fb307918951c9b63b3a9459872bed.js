@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2521221b9ebea739b847e12a91b9282b",
+    "revision": "f490ba1de29dbb5bef96eed66243ca1a",
     "url": "/didactic-giggle/index.html"
   },
   {
-    "revision": "72b0c753bd8648734642",
-    "url": "/didactic-giggle/static/css/main.f1bd3dda.chunk.css"
+    "revision": "c789763defa1f79c9d8d",
+    "url": "/didactic-giggle/static/css/main.33e5c4d8.chunk.css"
   },
   {
-    "revision": "db0789806d4c1a5304b1",
-    "url": "/didactic-giggle/static/js/2.33d10cd3.chunk.js"
+    "revision": "89039e6f2e9a8d51eea0",
+    "url": "/didactic-giggle/static/js/2.d49b0e07.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/didactic-giggle/static/js/2.33d10cd3.chunk.js.LICENSE.txt"
+    "url": "/didactic-giggle/static/js/2.d49b0e07.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72b0c753bd8648734642",
-    "url": "/didactic-giggle/static/js/main.ce84361c.chunk.js"
+    "revision": "c789763defa1f79c9d8d",
+    "url": "/didactic-giggle/static/js/main.3215079e.chunk.js"
   },
   {
     "revision": "7e17083e70eff93dd236",
