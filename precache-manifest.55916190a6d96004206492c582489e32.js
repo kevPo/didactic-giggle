@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f490ba1de29dbb5bef96eed66243ca1a",
+    "revision": "c590a8627af0565509e8d8c3c48b7000",
     "url": "/didactic-giggle/index.html"
   },
   {
-    "revision": "c789763defa1f79c9d8d",
+    "revision": "1c8204bb435a588cddbe",
     "url": "/didactic-giggle/static/css/main.33e5c4d8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/didactic-giggle/static/js/2.d49b0e07.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c789763defa1f79c9d8d",
-    "url": "/didactic-giggle/static/js/main.3215079e.chunk.js"
+    "revision": "1c8204bb435a588cddbe",
+    "url": "/didactic-giggle/static/js/main.e626e1c5.chunk.js"
   },
   {
     "revision": "7e17083e70eff93dd236",

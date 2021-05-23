@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/didactic-giggle/static/css/main.33e5c4d8.chunk.css",
-    "main.js": "/didactic-giggle/static/js/main.3215079e.chunk.js",
-    "main.js.map": "/didactic-giggle/static/js/main.3215079e.chunk.js.map",
+    "main.js": "/didactic-giggle/static/js/main.e626e1c5.chunk.js",
+    "main.js.map": "/didactic-giggle/static/js/main.e626e1c5.chunk.js.map",
     "runtime-main.js": "/didactic-giggle/static/js/runtime-main.d57c00a5.js",
     "runtime-main.js.map": "/didactic-giggle/static/js/runtime-main.d57c00a5.js.map",
     "static/js/2.d49b0e07.chunk.js": "/didactic-giggle/static/js/2.d49b0e07.chunk.js",
     "static/js/2.d49b0e07.chunk.js.map": "/didactic-giggle/static/js/2.d49b0e07.chunk.js.map",
     "index.html": "/didactic-giggle/index.html",
-    "precache-manifest.de2fb307918951c9b63b3a9459872bed.js": "/didactic-giggle/precache-manifest.de2fb307918951c9b63b3a9459872bed.js",
+    "precache-manifest.55916190a6d96004206492c582489e32.js": "/didactic-giggle/precache-manifest.55916190a6d96004206492c582489e32.js",
     "service-worker.js": "/didactic-giggle/service-worker.js",
     "static/css/main.33e5c4d8.chunk.css.map": "/didactic-giggle/static/css/main.33e5c4d8.chunk.css.map",
     "static/js/2.d49b0e07.chunk.js.LICENSE.txt": "/didactic-giggle/static/js/2.d49b0e07.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d57c00a5.js",
     "static/js/2.d49b0e07.chunk.js",
     "static/css/main.33e5c4d8.chunk.css",
-    "static/js/main.3215079e.chunk.js"
+    "static/js/main.e626e1c5.chunk.js"
   ]
 }
