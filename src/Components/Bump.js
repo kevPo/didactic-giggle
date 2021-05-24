@@ -1,13 +1,7 @@
-// install (please make sure versions match peerDependencies)
-// yarn add @nivo/core @nivo/bump
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
 import { ResponsiveBump } from '@nivo/bump'
-// make sure parent container have a defined height when using
-// responsive component, otherwise height will be 0 and
-// no chart will be rendered.
-// website examples showcase many properties,
-// you'll often use just a few of them.
+
 const charts = {
     emptyPattern: {
         id: 'empty',
@@ -91,40 +85,6 @@ const colors = [
     '#41c7c7',
     '#4861EC',
 ];
-
-const CustomPoint = ({
-    x,
-    y,
-    data,
-    isInactive,
-    size,
-    borderColor,
-    borderWidth,
-}) => {
-
-    const transition = useSpring({
-        transform: `translate(${x}, ${y})`,
-        radius: size / 2,
-        shadowRadius: (size + borderWidth) / 2,
-    })
-
-    return (
-        <animated.g transform={transition.transform} style={{ pointerEvents: 'none' }}>
-            <animated.circle r={transition.shadowRadius} cy={size / 5} fill="rgba(0, 0, 0, .2)" />
-            <animated.circle
-                r={transition.radius}
-                fill={'#212529'}
-                stroke={borderColor}
-                strokeWidth={borderWidth}
-            />
-            {!isInactive && (
-                <text textAnchor="middle" y={4} fill={'white'} fontSize="11px">
-                    {Math.round(data.percentage)}%
-                </text>
-            )}
-        </animated.g>
-    )
-}
 
 const data = [
     {
@@ -607,7 +567,10 @@ const data = [
   ];
 
 const MyResponsiveBump = () => (
-    <ResponsiveBump
+  <div className="chart-container">
+    <div className="chart-container x-scroll">
+      <div className="chart-container chart-inner">
+        <ResponsiveBump
             data={data}
             margin={{ top: 40, right: 150, bottom: 40, left: 150 }}
             colors={colors}
@@ -638,7 +601,6 @@ const MyResponsiveBump = () => (
                 modifiers: [['brighter', 1]],
             }}
             endLabelPadding={20}
-            // pointComponent={CustomPoint}
             lineWidth={5}
             pointSize={18}
             pointBorderWidth={3}
@@ -648,9 +610,11 @@ const MyResponsiveBump = () => (
             activePointBorderWidth={4}
             inactivePointSize={0}
             inactivePointBorderWidth={2}
-            // @ts-ignore
-            // tooltip={({ serie }) => <CustomTooltip {...serie} />}
         />
+      </div>
+    </div>
+  </div>
+
 )
 
 export default MyResponsiveBump;

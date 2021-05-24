@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade'
 
 const Header = () => (
   <header>
@@ -11,7 +11,7 @@ const Header = () => (
     <Fade right>
       <div className="bio">
         <h1>Kevin Poston</h1>
-        <p>
+        <p className="no-mobile">
           Selfless software engineer with ten years of experience developing
           software for a variety of domains in both the private and public
           sectors. Specializes in leading teams to build maintainable software
@@ -19,8 +19,14 @@ const Header = () => (
         </p>
       </div>
     </Fade>
-    <div>
-    </div>
+    <Fade bottom>
+      <p className="bio mobile-only">
+        Selfless software engineer with ten years of experience developing
+        software for a variety of domains in both the private and public
+        sectors. Specializes in leading teams to build maintainable software
+        with automated testing and well-established design patterns.
+      </p>
+    </Fade>
   </header>
 );
 
