@@ -14,6 +14,10 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 .mobile-only {
   display: block;
 }
@@ -79,14 +83,51 @@ p.bio {
   padding: 2em;
 }
 
+p.meta {
+  color: var(--main-color);
+  font-size: .85em;
+  font-weight: bold;
+  margin: 0;
+}
+
+p.meta-blue {
+  color: var(--main-color);
+  font-size: .85em;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+}
+
+i {
+  color: var(--main-color);
+}
+
+i.meta-blue {
+  color: var(--second-color);
+}
+
 .heading h1 {
   font-size: 2em;
-  /* font-weight: 100; */
   padding-left: 1em;
 }
 
 .x-scroll{
   overflow-x: scroll;
+}
+
+.container {
+  padding-left: 4em;
+}
+
+.flex-container {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .chart-container {
@@ -95,6 +136,14 @@ p.bio {
 
 .chart-inner {
   min-width: 1000px;
+  overflow-y: hidden;
+}
+
+.large-list p {
+  color: var(--second-color);
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
 }
 
 @media (min-width: 768px) {
@@ -146,17 +195,16 @@ p.bio {
 
   .chart-inner {
     margin: 0 auto;
-    overflow: hidden;
+    overflow-y: hidden;
     width: 1200px;
   }
 
-  .top-padding {
+  .top-padding-large {
     padding-top: 10em;
   }
 
-  .flex-container {
-    display: flex;
-    /* width: 100%; */
+  .top-padding-small {
+    padding-top: 2em;
   }
 
   .flex-container button {

@@ -3,7 +3,7 @@ import { ResponsiveBar } from "@nivo/bar";
 import { useTheme } from '@nivo/core'
 
 const charts = {
-  textColor: "#E359A4",
+  textColor: "#49A0EB",
   emptyPattern: {
     id: "empty",
     type: "patternLines",
@@ -29,7 +29,7 @@ const charts = {
     legend: {
       text: {
         fontSize: 14,
-        fontWeight: 600,
+        fontWeight: 600
       },
     },
   },
@@ -75,60 +75,22 @@ const charts = {
   },
 };
 
-const data = [
-  {
-    language: "Powershell",
-    "years": 1
-  },
-  {
-    language: "Java",
-    "years": 2
-  },
-  {
-    language: "Python",
-    "years": 2
-  },
-  {
-    language: "F#",
-    "years": 2
-  },
-  {
-    language: "Ruby",
-    "years": 3
-  },
-  {
-    language: "JavaScript",
-    "years": 9
-  },
-  {
-    language: "C#",
-    "years": 9
-  },
-  {
-    language: "HTML/CSS",
-    "years": 10
-  },
-  {
-    language: "SQL",
-    "years": 11
-  }
-];
-const colors = ["#49A0EB"];
+const colors = ["#E359A4"];
 
 const CustomTick = tick => {
   const theme = useTheme()
 
   return (
-    <g transform={`translate(${tick.x-60},${tick.y})`}>
-          {/* <line stroke="rgb(232, 193, 160)" strokeWidth={1.5} y1={-22} y2={-12} /> */}
+    <g transform={`translate(${tick.x-20},${tick.y})`}>
           <text
-              textAnchor="middle"
+              textAnchor="end"
               dominantBaseline="middle"
               style={{
                   ...theme.axis.ticks.text,
-                  fill: '#E359A4',
-                  fontSize: 14,
-                  fontFamily: "'IBM Plex Mono', monospace"
+                  fill: '#49A0EB',
+                  fontSize: 12,
+                  fontWeight: 500,
+                  // fontFamily: "'IBM Plex Mono', monospace"
               }}
           >
               {tick.value}
@@ -138,7 +100,7 @@ const CustomTick = tick => {
 }
 
 
-const MyResponsiveBar = () => (
+const Bar = ({data}) => (
   <div className="chart-container">
     <div className="chart-container x-scroll">
       <div className="chart-container chart-inner">
@@ -147,7 +109,7 @@ const MyResponsiveBar = () => (
           keys={["years"]}
           indexBy="language"
           margin={{ top: 50, right: 130, bottom: 50, left: 120 }}
-          padding={.3}
+          padding={.5}
           layout="horizontal"
           theme={charts}
           valueScale={{ type: "linear" }}
@@ -156,22 +118,12 @@ const MyResponsiveBar = () => (
           borderColor={{ from: "color", modifiers: [["darker", 1.6]] }}
           axisTop={{ tickSize: 5, tickPadding: 5, tickRotation: 0, legend: "" }}
           axisRight={null}
-          axisBottom={{
-            tickSize: 5,
-            tickPadding: 5,
-            tickRotation: 0,
-            legend: "Total Years",
-            legendPosition: "middle",
-            legendOffset: 38,
-          }}
           axisLeft={{
             tickSize: 0,
-            tickPadding: 40,
             renderTick: CustomTick
           }}
-          labelSkipWidth={12}
-          labelSkipHeight={12}
-          labelTextColor="#212529"
+          label={null}
+          isInteractive={false}
           animate={true}
           motionStiffness={90}
           motionDamping={15}
@@ -181,4 +133,4 @@ const MyResponsiveBar = () => (
   </div>
 );
 
-export default MyResponsiveBar;
+export default Bar;
