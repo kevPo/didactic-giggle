@@ -73,6 +73,7 @@ export default function App() {
                 <div className="flex-container">
                   <button onClick={() => toggleFrameworks('year')} className={frameworksSetting === 'year' ? "active" : ""}>by year</button>
                   <button onClick={() => toggleFrameworks('total')} className={frameworksSetting === 'total' ? "active" : ""}>in total</button>
+                  <p className="meta-blue"><i className="meta-blue">*</i> Some of these are considered libraries, not frameworks. Don't hate.</p>
                 </div>
               </div>
               <div class="top-padding-small">

@@ -108,7 +108,7 @@ const Bar = ({data}) => (
           data={data}
           keys={["years"]}
           indexBy="language"
-          margin={{ top: 50, right: 130, bottom: 50, left: 120 }}
+          margin={{ top: 50, right: 130, bottom: 50, left: 200 }}
           padding={.5}
           layout="horizontal"
           theme={charts}

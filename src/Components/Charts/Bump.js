@@ -1,5 +1,4 @@
 import React from "react";
-import { useSpring, animated } from "react-spring";
 import { ResponsiveBump } from "@nivo/bump";
 
 const charts = {
@@ -84,6 +83,8 @@ const colors = [
   "#7854C3",
   "#41c7c7",
   "#4861EC",
+  "#D68DF0",
+  "#a3cacd"
 ];
 
 const Bump = ({data}) => (
@@ -92,7 +93,7 @@ const Bump = ({data}) => (
       <div className="chart-container chart-inner">
         <ResponsiveBump
           data={data}
-          margin={{ top: 40, right: 150, bottom: 40, left: 150 }}
+          margin={{ top: 40, right: 125, bottom: 40, left: 125 }}
           colors={colors}
           // @ts-ignore
           inactiveLineWidth={5}

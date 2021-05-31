@@ -3,36 +3,52 @@ import Bar from './Charts/Bar'
 
 const data = [
   {
-    language: "Powershell",
+    language: "Django",
     "years": 1
   },
   {
-    language: "Java",
+    language: "Wicket",
     "years": 2
   },
   {
-    language: "Python",
+    language: "Vue",
     "years": 2
   },
   {
-    language: "Ruby",
+    language: "Rails",
     "years": 2
   },
   {
-    language: "JavaScript",
-    "years": 9
+    language: "Entity Framework",
+    "years": 3
   },
   {
-    language: "C#",
-    "years": 9
+    language: ".NET (WPF | SignalR)",
+    "years": 3
   },
   {
-    language: "HTML/CSS",
-    "years": 10
+    language: "React",
+    "years": 3
   },
   {
-    language: "SQL",
-    "years": 10
+    language: ".NET (WebAPI)",
+    "years": 5
+  },
+  {
+    language: "Angular",
+    "years": 7
+  },
+  {
+    language: ".Net (MVC)",
+    "years": 7
+  },
+  {
+    language: "NodeJS",
+    "years": 7
+  },
+  {
+    language: ".NET (WebForms)",
+    "years": 8
   }
 ];
 
