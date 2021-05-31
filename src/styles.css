@@ -16,6 +16,7 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 .mobile-only {
@@ -119,10 +120,25 @@ i.meta-blue {
   padding-left: 4em;
 }
 
+.margin-left {
+  margin-left: 2em;
+}
+
+.top-padding-small {
+  padding-top: 2em;
+}
+
 .flex-container {
   align-items: center;
   display: flex;
-  width: 100%;
+  flex-wrap: wrap;
+  margin-left: 2em;
+  width: 80%;
+}
+
+.flex-container button {
+  margin-right: 2em;
+  margin-bottom: 2em;
 }
 
 .column-container {
@@ -162,6 +178,10 @@ i.meta-blue {
 
   header h1 {
     font-size: 3em;
+  }
+
+  .margin-left {
+    margin-left: 4em;
   }
 
   .intro-box {
@@ -207,7 +227,12 @@ i.meta-blue {
     padding-top: 2em;
   }
 
+  .flex-container {
+    margin-left: 0;
+    width: 100%;
+  }
+
   .flex-container button {
-    margin-right: 2em;
+    margin-bottom: 0;
   }
 }

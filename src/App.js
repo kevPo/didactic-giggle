@@ -53,7 +53,7 @@ export default function App() {
             </div>
           </Fade>
           <Fade left>
-            <div className="container top-padding-small">
+            <div className="margin-left top-padding-small">
               <p className="meta">Languages that I have experience with, but have not yet used in production</p>
               <div className="flex-container">
                 <ul className="column-container large-list">
