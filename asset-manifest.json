@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/didactic-giggle/static/css/main.214fc2d5.chunk.css",
+    "main.css": "/didactic-giggle/static/css/main.b6c84c04.chunk.css",
     "main.js": "/didactic-giggle/static/js/main.6879ffcf.chunk.js",
     "main.js.map": "/didactic-giggle/static/js/main.6879ffcf.chunk.js.map",
     "runtime-main.js": "/didactic-giggle/static/js/runtime-main.d57c00a5.js",
@@ -8,16 +8,16 @@
     "static/js/2.65fb81ab.chunk.js": "/didactic-giggle/static/js/2.65fb81ab.chunk.js",
     "static/js/2.65fb81ab.chunk.js.map": "/didactic-giggle/static/js/2.65fb81ab.chunk.js.map",
     "index.html": "/didactic-giggle/index.html",
-    "precache-manifest.4576707c15e5757f38377af167a24f20.js": "/didactic-giggle/precache-manifest.4576707c15e5757f38377af167a24f20.js",
+    "precache-manifest.25b5dab850b90df2cbce28f504d1e6f0.js": "/didactic-giggle/precache-manifest.25b5dab850b90df2cbce28f504d1e6f0.js",
     "service-worker.js": "/didactic-giggle/service-worker.js",
-    "static/css/main.214fc2d5.chunk.css.map": "/didactic-giggle/static/css/main.214fc2d5.chunk.css.map",
+    "static/css/main.b6c84c04.chunk.css.map": "/didactic-giggle/static/css/main.b6c84c04.chunk.css.map",
     "static/js/2.65fb81ab.chunk.js.LICENSE.txt": "/didactic-giggle/static/js/2.65fb81ab.chunk.js.LICENSE.txt",
     "static/media/avi-website.png": "/didactic-giggle/static/media/avi-website.628fc687.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d57c00a5.js",
     "static/js/2.65fb81ab.chunk.js",
-    "static/css/main.214fc2d5.chunk.css",
+    "static/css/main.b6c84c04.chunk.css",
     "static/js/main.6879ffcf.chunk.js"
   ]
 }
