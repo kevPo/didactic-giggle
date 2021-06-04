@@ -28,14 +28,14 @@ ul {
 }
 
 h1 {
-  color: var(--second-color);
+  color: var(--main-color);
 }
 
 button {
   background-color: var(--bg-color);
   border-radius: 5px;
-  border: 1px dashed var(--main-color);
-  color: var(--main-color);
+  border: 1px dashed var(--second-color);
+  color: var(--second-color);
   font-family: 'IBM Plex Mono', monospace;
   padding: .5em 2em;
   width: 120px;
@@ -43,11 +43,11 @@ button {
 
 button:hover {
   cursor: pointer;
-  border: 1px solid var(--main-color);
+  border: 1px solid var(--second-color);
 }
 
 button.active {
-  background-color: var(--main-color);
+  background-color: var(--second-color);
   color: var(--bg-color);
   border: 1px dashed var(--bg-color);
   box-sizing: border-box;
@@ -162,6 +162,47 @@ i.meta-blue {
   padding: 0;
 }
 
+.company-name-container {
+  align-items: center;
+  display: flex;
+}
+
+.company-name-container > p.meta {
+  margin-left: 1em;
+}
+
+ul.bulleted-list {
+  list-style: circle;
+  padding-left: 2em;
+  padding-top: .75em;
+}
+
+p.role {
+  color: var(--main-color);
+  padding-right: 2em;
+  max-width: 500px;
+}
+
+.company-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2em;
+}
+
+.company-list > li {
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+.middle-info {
+  margin: 0 auto;
+  padding: 2em 0;
+  width: 100%;
+}
+
+
 @media (min-width: 768px) {
   .mobile-only {
     display: none;
@@ -206,7 +247,7 @@ i.meta-blue {
   }
 
   .heading {
-    padding-left: 4em;
+    padding: 0 4em 0 4em;
   }
 
   .chart-container {
@@ -234,5 +275,35 @@ i.meta-blue {
 
   .flex-container button {
     margin-bottom: 0;
+  }
+
+  .company-name-container {
+    margin-left: -10em;
+  }
+
+  .company-name-container > p.meta {
+    margin-right: 1em;
+    order: 1;
+  }
+
+  .company-name-container > h2 {
+    order: 2;
+  }
+
+  .company-list{
+    padding: 0;
+  }
+
+  .company-list > li {
+    padding-bottom: 4em;
+  }
+
+  .middle-info {
+    padding: 2em 0 0 0;
+  }
+
+  .middle-info,
+  .company-list > li {
+    width: 600px;
   }
 }
