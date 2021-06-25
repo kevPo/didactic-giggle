@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/didactic-giggle/static/css/main.f47c1028.chunk.css",
-    "main.js": "/didactic-giggle/static/js/main.11722afb.chunk.js",
-    "main.js.map": "/didactic-giggle/static/js/main.11722afb.chunk.js.map",
+    "main.js": "/didactic-giggle/static/js/main.b1b8e5d8.chunk.js",
+    "main.js.map": "/didactic-giggle/static/js/main.b1b8e5d8.chunk.js.map",
     "runtime-main.js": "/didactic-giggle/static/js/runtime-main.d57c00a5.js",
     "runtime-main.js.map": "/didactic-giggle/static/js/runtime-main.d57c00a5.js.map",
-    "static/js/2.b6d0b7b5.chunk.js": "/didactic-giggle/static/js/2.b6d0b7b5.chunk.js",
-    "static/js/2.b6d0b7b5.chunk.js.map": "/didactic-giggle/static/js/2.b6d0b7b5.chunk.js.map",
+    "static/js/2.0340fda1.chunk.js": "/didactic-giggle/static/js/2.0340fda1.chunk.js",
+    "static/js/2.0340fda1.chunk.js.map": "/didactic-giggle/static/js/2.0340fda1.chunk.js.map",
     "index.html": "/didactic-giggle/index.html",
-    "precache-manifest.d292d99bd3aace61d9f21ce31d1bd5ef.js": "/didactic-giggle/precache-manifest.d292d99bd3aace61d9f21ce31d1bd5ef.js",
+    "precache-manifest.d8590e5d323c6be9eb6d58354196f981.js": "/didactic-giggle/precache-manifest.d8590e5d323c6be9eb6d58354196f981.js",
     "service-worker.js": "/didactic-giggle/service-worker.js",
     "static/css/main.f47c1028.chunk.css.map": "/didactic-giggle/static/css/main.f47c1028.chunk.css.map",
-    "static/js/2.b6d0b7b5.chunk.js.LICENSE.txt": "/didactic-giggle/static/js/2.b6d0b7b5.chunk.js.LICENSE.txt",
+    "static/js/2.0340fda1.chunk.js.LICENSE.txt": "/didactic-giggle/static/js/2.0340fda1.chunk.js.LICENSE.txt",
     "static/media/avi-website.png": "/didactic-giggle/static/media/avi-website.628fc687.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d57c00a5.js",
-    "static/js/2.b6d0b7b5.chunk.js",
+    "static/js/2.0340fda1.chunk.js",
     "static/css/main.f47c1028.chunk.css",
-    "static/js/main.11722afb.chunk.js"
+    "static/js/main.b1b8e5d8.chunk.js"
   ]
 }
