@@ -53,6 +53,10 @@ button.active {
   box-sizing: border-box;
 }
 
+a {
+  color: white;
+}
+
 header h1 {
   color: var(--main-color);
   font-weight: 800;
@@ -302,7 +306,7 @@ p.role {
   }
 
   .top-padding-large {
-    padding-top: 10em;
+    padding-top: 5em;
   }
 
   .top-padding-small {

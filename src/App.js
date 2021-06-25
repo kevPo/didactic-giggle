@@ -130,222 +130,273 @@ export default function App() {
         </div>
       </Fade>
 
-      <Fade bottom>
-        <div className="top-padding-large">
-          <div className="heading">
-            <h1>Companies</h1>
-            <div className="top-padding-small">
-              <ul className="company-list">
-                <li>
-                  <div>
-                    <div className="company-name-container">
-                      <h2>Qualtrax</h2>
-                      <p className="meta">03/2019 - Present</p>
-                    </div>
-                    <div>
-                      <p className="role">
-                        Team lead and full stack engineer responsible for web
-                        application that enables customers to meet heavy
-                        compliance burdens.
-                      </p>
-                      <ul className="bulleted-list">
-                        <li>
-                          <p>
-                            Led culture change of single-digit yearly releases
-                            to weekly automated releases utilizing Azure
-                            Pipelines.
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            Team reduced user story lead-time from 73 days to 17
-                            within 1 year using Agile and DevOps principles.
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            Owner of the collaboration between customer support
-                            and product engineering. Responsible for
-                            facilitating all escalations and critical failures.
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            Used Azure Pipelines to automate release process.
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            Organized and implemented major initiative to remove
-                            all XSS vulnerabilities from large WebForms product.
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <div className="company-name-container">
-                      <h2>Excella</h2>
-                      <p className="meta">03/2018 - 03/2019</p>
-                    </div>
-                    <div>
-                      <p className="role">
-                        Team lead and mentor at the Excella Extension Center
-                        (XC) at Virginia Tech. The XC combines student resources
-                        from Virginia Tech with consultants to provide
-                        high-quality, low-cost support for Excella’s clients.
-                      </p>
-                      <ul className="bulleted-list">
-                        <li>
-                          <p>
-                            <b>myUSCIS</b> - Responsible for the unauthenticated
-                            experience of the myUSCIS website (United States
-                            Citizenship and Immigration Services).
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            <b>Ampathy.io</b> - Designed and developed prototype
-                            to help move customer interviews and marketing
-                            workflows from spreadsheets to an online tool.
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            <b>eXplore</b> - Tech lead for internal staffing
-                            application used by Excella.
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <div className="company-name-container">
-                      <h2>Qualtrax</h2>
-                      <p className="meta">02/2014 - 03/2018</p>
-                    </div>
-                    <div className="bulleted-list">
-                      <p className="role">
-                        Developed and maintained web application for
-                        organizations needing to manage their compliance to
-                        various certifying and accrediting bodies.
-                      </p>
-                      <ul className="bulleted-list">
-                        <li>
-                          <p>
-                            Evangelized and implemented total refactor of CSS
-                            architecture using SMACSS and SASS
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            Major contributor to open source tool, Huburn, that
-                            allowed team to monitor agile metrics.
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            Implemented "Health Check Model" to measure things
-                            about our team that agile metrics did not.
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            Keynote speaker at the 2017 Qualtrax User Conference
-                            and the 2017 A2LA Tech Forum.
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <div className="company-name-container">
-                      <h2>DaProSystems</h2>
-                      <p className="meta">06/2012 - 02/2014</p>
-                    </div>
-                    <div className="bulleted-list">
-                      <p className="role">
-                        Designed and developed new application for police
-                        officers to use in the field while also providing
-                        assistance modernizing legacy products responsible for
-                        public safety record management.
-                      </p>
-                      <ul className="bulleted-list">
-                        <li>
-                          <p>
-                            Implemented real time collaboration for police
-                            officers using .NET SignalR.
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            Responsible for recording training videos and
-                            leading training sessions on how to use the
-                            software.
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <div className="company-name-container">
-                      <h2>VTLS</h2>
-                      <p className="meta">04/2011 - 06/2012</p>
-                    </div>
-                    <div className="bulleted-list">
-                      <p className="role">
-                        Built an Online Public Access Catalogue (OPAC) named
-                        Chamo. This tool was used in many libraries all over the
-                        world including the Hong Kong Public Library.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </Fade>
-
-      <Fade bottom>
-        <div className="top-padding-large">
-          <div className="heading">
-            <h1>Education</h1>
-          </div>
+      <div className="top-padding-large">
+        <div className="heading">
+          <h1>Companies</h1>
           <div className="top-padding-small">
             <ul className="company-list">
               <li>
                 <div>
                   <div className="company-name-container">
-                    <h2>Radford University</h2>
-                    <p className="meta">2011</p>
+                    <h2>Qualtrax</h2>
+                    <p className="meta">03/2019 - Present</p>
                   </div>
                   <div>
                     <p className="role">
-                      B.S, Computer Science, Radford University
+                      Team lead and full stack engineer responsible for web
+                      application that enables customers to meet heavy
+                      compliance burdens.
                     </p>
-                    {/* <ul className="bulleted-list">
-                            <li><p>Led culture change of single-digit yearly releases to weekly automated releases utilizing Azure Pipelines.</p></li>
-                            <li><p>Team reduced user story lead-time from 73 days to 17 within 1 year using Agile and DevOps principles.</p></li>
-                            <li><p>Owner of the collaboration between customer support and product engineering. Responsible for facilitating all escalations and critical failures.</p></li>
-                            <li><p>Automated lengthy release process for team using Azure Pipelines.</p></li>
-                            <li><p>Organized and implemented major initiative to remove all XSS vulnerabilities from large WebForms product.</p></li>
-                          </ul> */}
+                    <ul className="bulleted-list">
+                      <li>
+                        <p>
+                          Team transitioned from 4-5 yearly releases to
+                          automated weekly releases via Azure Pipelines.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Team reduced user story lead-time from 73 days to 17
+                          within 1 year using Agile and DevOps principles.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Owner of the collaboration between customer support
+                          and product engineering. Responsible for facilitating
+                          all escalations and critical failures.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Organized and implemented major initiative to remove
+                          all XSS vulnerabilities from large WebForms product.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div className="company-name-container">
+                    <h2>Excella</h2>
+                    <p className="meta">03/2018 - 03/2019</p>
+                  </div>
+                  <div>
+                    <p className="role">
+                      Team lead and mentor at the Excella Extension Center (XC)
+                      at Virginia Tech. The XC combines student resources from
+                      Virginia Tech with consultants to provide high-quality,
+                      low-cost support for Excella’s clients.
+                    </p>
+                    <ul className="bulleted-list">
+                      <li>
+                        <p>
+                          <b>myUSCIS</b> - Responsible for the unauthenticated
+                          experience of the myUSCIS website (United States
+                          Citizenship and Immigration Services).
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <b>Ampathy.io</b> - Designed and developed prototype
+                          to help move customer interviews and marketing
+                          workflows from spreadsheets to an online tool.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <b>eXplore</b> - Tech lead for internal staffing
+                          application used by Excella.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div className="company-name-container">
+                    <h2>Qualtrax</h2>
+                    <p className="meta">02/2014 - 03/2018</p>
+                  </div>
+                  <div className="bulleted-list">
+                    <p className="role">
+                      Developed and maintained web application for organizations
+                      needing to manage their compliance to various certifying
+                      and accrediting bodies.
+                    </p>
+                    <ul className="bulleted-list">
+                      <li>
+                        <p>
+                          Evangelized and implemented total refactor of CSS
+                          architecture using SMACSS and SASS
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Major contributor to open source tool, Huburn, that
+                          allowed team to monitor agile metrics.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Implemented "Health Check Model" to measure things
+                          about our team that agile metrics did not.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Keynote speaker at the 2017 Qualtrax User Conference
+                          and the 2017 A2LA Tech Forum.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div className="company-name-container">
+                    <h2>DaProSystems</h2>
+                    <p className="meta">06/2012 - 02/2014</p>
+                  </div>
+                  <div className="bulleted-list">
+                    <p className="role">
+                      Designed and developed new application for police officers
+                      to use in the field while also providing assistance
+                      modernizing legacy products responsible for public safety
+                      record management.
+                    </p>
+                    <ul className="bulleted-list">
+                      <li>
+                        <p>
+                          Implemented real time collaboration for police
+                          officers using .NET SignalR.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Responsible for recording training videos and leading
+                          training sessions on how to use the software.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div className="company-name-container">
+                    <h2>VTLS</h2>
+                    <p className="meta">04/2011 - 06/2012</p>
+                  </div>
+                  <div className="bulleted-list">
+                    <p className="role">
+                      Built an Online Public Access Catalogue (OPAC) named
+                      Chamo. This tool was used in many libraries all over the
+                      world including the Hong Kong Public Library.
+                    </p>
                   </div>
                 </div>
               </li>
             </ul>
           </div>
         </div>
-      </Fade>
+      </div>
+
+      <div className="top-padding-large">
+        <div className="heading">
+          <h1>Education</h1>
+        </div>
+        <div className="top-padding-small">
+          <ul className="company-list">
+            <li>
+              <div>
+                <div className="company-name-container">
+                  <h2>Radford University</h2>
+                  <p className="meta">2011</p>
+                </div>
+                <div>
+                  <p className="role">
+                    B.S, Computer Science, Radford University
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="top-padding-large">
+        <div className="heading">
+          <h1>Random Things</h1>
+        </div>
+        <div className="top-padding-small">
+          <ul className="company-list">
+            <li>
+              <div>
+                <div className="company-name-container">
+                  <h2>
+                    Published <a href="https://nrv.dev">NRV DEV</a>
+                  </h2>
+                  <p className="meta">2020</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="company-name-container">
+                  <h2>Certified Scrum Master</h2>
+                  <p className="meta">2019</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="company-name-container">
+                  <h2>
+                    Hosted{" "}
+                    <a href="https://www.coderetreat.org/">
+                      {" "}
+                      Global Day of Code Retreat
+                    </a>
+                  </h2>
+                  <p className="meta">2019</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="company-name-container">
+                  <h2>
+                    Participated in <a href="https://eos.io">EOSIO</a> Hackathon
+                    in San Francisco
+                  </h2>
+                  <p className="meta">2019</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="company-name-container">
+                  <h2>Guest Lecturer at Virginia Tech</h2>
+                  <p className="meta">2018 - 2020</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="company-name-container">
+                  <h2>Guest Lecturer at Radford University</h2>
+                  <p className="meta">2016 - 2020</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
