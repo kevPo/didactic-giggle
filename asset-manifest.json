@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.689a82d2.chunk.css",
+    "main.css": "/static/css/main.9f766b1b.chunk.css",
     "main.js": "/static/js/main.13b45681.chunk.js",
     "main.js.map": "/static/js/main.13b45681.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3bbf3189.js",
@@ -8,16 +8,16 @@
     "static/js/2.54f842ca.chunk.js": "/static/js/2.54f842ca.chunk.js",
     "static/js/2.54f842ca.chunk.js.map": "/static/js/2.54f842ca.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b0cc7eb684cbc53573627d6691819b95.js": "/precache-manifest.b0cc7eb684cbc53573627d6691819b95.js",
+    "precache-manifest.ec694a29471537c4bd9b14c0c8561aa6.js": "/precache-manifest.ec694a29471537c4bd9b14c0c8561aa6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.689a82d2.chunk.css.map": "/static/css/main.689a82d2.chunk.css.map",
+    "static/css/main.9f766b1b.chunk.css.map": "/static/css/main.9f766b1b.chunk.css.map",
     "static/js/2.54f842ca.chunk.js.LICENSE.txt": "/static/js/2.54f842ca.chunk.js.LICENSE.txt",
     "static/media/avi-website.png": "/static/media/avi-website.628fc687.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3bbf3189.js",
     "static/js/2.54f842ca.chunk.js",
-    "static/css/main.689a82d2.chunk.css",
+    "static/css/main.9f766b1b.chunk.css",
     "static/js/main.13b45681.chunk.js"
   ]
 }
