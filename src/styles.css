@@ -153,6 +153,11 @@ i.meta-blue {
   height: 400px;
 }
 
+.chart-container::-webkit-scrollbar,
+.chart-container--small::-webkit-scrollbar {
+  display: none;
+}
+
 .chart-container--small {
   height: 300px;
 }
