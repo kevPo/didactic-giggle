@@ -1,5 +1,6 @@
 import React from "react";
 import { ResponsiveBump } from "@nivo/bump";
+import { reduceEachTrailingCommentRange } from "typescript";
 
 const charts = {
   emptyPattern: {
@@ -53,6 +54,7 @@ const charts = {
   },
   tooltip: {
     container: {
+      color: "#212529",
       fontSize: 14,
       borderRadius: 0,
       boxShadow: `9px 9px 0 rgba(0, 0, 0, 0.15)`,
@@ -84,10 +86,10 @@ const colors = [
   "#41c7c7",
   "#4861EC",
   "#D68DF0",
-  "#a3cacd"
+  "#a3cacd",
 ];
 
-const Bump = ({data}) => (
+const Bump = ({ data }) => (
   <div className="chart-container">
     <div className="chart-container x-scroll">
       <div className="chart-container chart-inner">

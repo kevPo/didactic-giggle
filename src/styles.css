@@ -365,3 +365,10 @@ p.role {
     margin-bottom: 2em;
   }
 }
+
+@media (min-width: 1600px) {
+  .App > div {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+}

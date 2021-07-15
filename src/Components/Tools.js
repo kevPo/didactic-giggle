@@ -53,7 +53,7 @@ const data = [
       },
       {
         name: "Docker",
-        loc: 2,
+        loc: 1,
       },
       {
         name: "Vagrant",
@@ -79,6 +79,10 @@ const data = [
       {
         name: "Jira",
         loc: 3,
+      },
+      {
+        name: "GitLab",
+        loc: 0.5,
       },
     ],
   },

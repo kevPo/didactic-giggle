@@ -1,6 +1,6 @@
 import React from "react";
 import { createNull } from "typescript";
-import Bump from './Charts/Bump'
+import Bump from "./Charts/Bump";
 
 const data = [
   {
@@ -593,8 +593,6 @@ const data = [
   },
 ];
 
-const FrameworksByYear = () => (
-  <Bump data={data} />
-);
+const FrameworksByYear = () => <Bump data={data} />;
 
 export default FrameworksByYear;

@@ -76,7 +76,7 @@ export default function App() {
             </p>
             <ul className="column-container large-list bulleted-list">
               <li>
-                <p>Elixir (this might be my love language)</p>
+                <p>Elixir</p>
               </li>
               <li>
                 <p>F#</p>
