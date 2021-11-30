@@ -1,5 +1,5 @@
 import React from "react";
-import Bump from './Charts/Bump'
+import Bump from "./Charts/Bump";
 
 const data = [
   {
@@ -292,7 +292,7 @@ const data = [
       },
       {
         x: 2021,
-        y: 4,
+        y: 5,
       },
     ],
   },
@@ -346,6 +346,55 @@ const data = [
     ],
   },
   {
+    id: "Elixir",
+    data: [
+      {
+        x: 2011,
+        y: null,
+      },
+      {
+        x: 2012,
+        y: null,
+      },
+      {
+        x: 2013,
+        y: null,
+      },
+      {
+        x: 2014,
+        y: null,
+      },
+      {
+        x: 2015,
+        y: null,
+      },
+      {
+        x: 2016,
+        y: null,
+      },
+      {
+        x: 2017,
+        y: null,
+      },
+      {
+        x: 2018,
+        y: null,
+      },
+      {
+        x: 2019,
+        y: null,
+      },
+      {
+        x: 2020,
+        y: null,
+      },
+      {
+        x: 2021,
+        y: 4,
+      },
+    ],
+  },
+  {
     id: "Powershell",
     data: [
       {
@@ -390,14 +439,12 @@ const data = [
       },
       {
         x: 2021,
-        y: 5,
+        y: 6,
       },
     ],
   },
 ];
 
-const LanguagesByYear = () => (
-  <Bump data={data} />
-);
+const LanguagesByYear = () => <Bump data={data} />;
 
 export default LanguagesByYear;

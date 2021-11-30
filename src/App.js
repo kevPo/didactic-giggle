@@ -67,30 +67,6 @@ export default function App() {
           <div class="top-padding-small">{renderLanguages()}</div>
         </div>
       </Fade>
-      <Fade left>
-        <div className="margin-left top-padding-small">
-          <div class="middle-info">
-            <p className="meta">
-              Languages that I have experience with, but have not yet used in
-              production
-            </p>
-            <ul className="column-container large-list bulleted-list">
-              <li>
-                <p>Elixir</p>
-              </li>
-              <li>
-                <p>F#</p>
-              </li>
-              <li>
-                <p>TypeScript</p>
-              </li>
-              <li>
-                <p>GraphQL</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </Fade>
 
       <Fade bottom>
         <div className="top-padding-large">
@@ -138,8 +114,24 @@ export default function App() {
               <li>
                 <div>
                   <div className="company-name-container">
+                    <h2>Remote</h2>
+                    <p className="meta">10/2021 - Present</p>
+                  </div>
+                  <div>
+                    <p className="role">Senior Backend Engineer</p>
+                    <ul className="bulleted-list">
+                      <li>
+                        <p>Coming soon...</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div className="company-name-container">
                     <h2>Qualtrax</h2>
-                    <p className="meta">03/2019 - Present</p>
+                    <p className="meta">03/2019 - 10/2021</p>
                   </div>
                   <div>
                     <p className="role">
