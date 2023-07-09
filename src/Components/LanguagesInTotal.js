@@ -3,10 +3,6 @@ import Bar from "./Charts/Bar";
 
 const data = [
   {
-    language: "Elixir",
-    years: 0.5,
-  },
-  {
     language: "Powershell",
     years: 1,
   },
@@ -23,20 +19,24 @@ const data = [
     years: 2,
   },
   {
-    language: "JavaScript",
-    years: 9,
+    language: "Elixir",
+    years: 2,
   },
   {
     language: "C#",
     years: 9,
   },
   {
-    language: "HTML/CSS",
+    language: "JavaScript",
     years: 10,
   },
   {
     language: "SQL",
-    years: 10,
+    years: 11,
+  },
+  {
+    language: "HTML/CSS",
+    years: 11,
   },
 ];
 
