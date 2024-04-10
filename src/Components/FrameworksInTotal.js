@@ -15,14 +15,6 @@ const data = [
     years: 2,
   },
   {
-    language: "Ecto",
-    years: 3,
-  },
-  {
-    language: "Phoenix",
-    years: 3,
-  },
-  {
     language: "Vue",
     years: 2,
   },
@@ -36,6 +28,14 @@ const data = [
   },
   {
     language: "React",
+    years: 3,
+  },
+  {
+    language: "Ecto",
+    years: 3,
+  },
+  {
+    language: "Phoenix",
     years: 3,
   },
   {
