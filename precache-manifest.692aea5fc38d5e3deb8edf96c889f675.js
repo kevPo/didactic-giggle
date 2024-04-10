@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "864add58c5232b400d2864790e4e5292",
+    "revision": "70302d68cbb866895c7b0e8a9af13dd5",
     "url": "/index.html"
   },
   {
-    "revision": "e90ece15d2b10d8ceb15",
-    "url": "/static/css/main.f921696e.chunk.css"
+    "revision": "1b960435004c50f7cf82",
+    "url": "/static/css/main.5e2e47c8.chunk.css"
   },
   {
     "revision": "f7f1326f6d5f9141f856",
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.833a4a6b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e90ece15d2b10d8ceb15",
-    "url": "/static/js/main.09250fbd.chunk.js"
+    "revision": "1b960435004c50f7cf82",
+    "url": "/static/js/main.7d2ecd2f.chunk.js"
   },
   {
     "revision": "73a4f215652a07459b34",
     "url": "/static/js/runtime-main.3bbf3189.js"
   },
   {
-    "revision": "628fc6874fb03164b4bc50fcd55a2958",
-    "url": "/static/media/avi-website.628fc687.png"
+    "revision": "40127109b7c6444d9627da295a245e63",
+    "url": "/static/media/avi-website.40127109.png"
   }
 ]);
