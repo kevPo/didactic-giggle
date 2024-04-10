@@ -20,7 +20,7 @@ const data = [
   },
   {
     language: "Elixir",
-    years: 2,
+    years: 3,
   },
   {
     language: "C#",
@@ -28,15 +28,15 @@ const data = [
   },
   {
     language: "JavaScript",
-    years: 10,
+    years: 11,
   },
   {
     language: "SQL",
-    years: 11,
+    years: 12,
   },
   {
     language: "HTML/CSS",
-    years: 11,
+    years: 12,
   },
 ];
 

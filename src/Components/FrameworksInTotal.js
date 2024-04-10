@@ -16,11 +16,11 @@ const data = [
   },
   {
     language: "Ecto",
-    years: 2,
+    years: 3,
   },
   {
     language: "Phoenix",
-    years: 2,
+    years: 3,
   },
   {
     language: "Vue",

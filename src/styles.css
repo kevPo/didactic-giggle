@@ -70,7 +70,7 @@ header {
 
 .intro-box {
   align-items: center;
-  background-color: var(--main-color);
+  /* background-color: var(--second-color); */
   display: flex;
   justify-content: flex-end;
   border-top-right-radius: 1em;
